@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact</title>
+    <!-- component: head.html -->
+</head>
+
+<body>
+    <main>
+        <!-- component: sidebar.html -->
+        <div class="main-content">
+            <!-- component: navigation.html -->
+
+            <article class="contact active" data-page-html="contact">
+
+                <header>
+                    <h2 class="h2 article-title">Contact</h2>
+                </header>
+            
+                <div class="mapbox" data-mapbox>
+                    <figure>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d489.57052413583114!2d-69.74484618537392!3d18.49477246790236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf814d535c09c9%3A0x35c4d0c6578d8fca!2sMA-%20E46!5e0!3m2!1sen!2sdo!4v1696375259447!5m2!1sen!2sdo"
+                            width="400" height="300" loading="lazy"></iframe>
+                    </figure>
+                </div>
+            
+                <section class="contact-form">
+            
+                    <h3 class="h3 form-title">Contact Form</h3>
+            
+                    <form action="#" class="form" data-form>
+            
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+            
+                            <input type="email" name="email" class="form-input" placeholder="Email address" required
+                                data-form-input>
+                        </div>
+            
+                        <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            
+                        <button class="form-btn" type="submit" disabled data-form-btn>
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <span>Send Message</span>
+                        </button>
+            
+                    </form>
+            
+                </section>
+            
+            </article>
+            
+        </div>
+    </main>
+    <!-- component: scripts.html -->
+</body>
+
+</html>
